@@ -1,6 +1,6 @@
 # Ecommerce-Follow-Along
 
-## Overview
+## Milestone 1: Project Overview
 
 Welcome to the Ecommerce MERN Stack Application project! This project is designed to help you learn how to build a full-stack e-commerce application using the MERN stack (MongoDB, Express.js, React.js, and Node.js). You will gain hands-on experience by building essential features like secure authentication, REST API creation, and database schema design.
 Key Features
