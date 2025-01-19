@@ -1,38 +1,18 @@
-# Node.js (For both Frontend and Backend)
-node_modules/
-Front-end/node_modules/
+# Ignore node_modules in both front-end and back-end
 Back-end/node_modules/
+Front-end/node_modules/
 
-# Dependency lock files (Frontend and Backend)
+# Ignore .env files
+Back-end/.env
+Front-end/.env
+
+# Ignore package-lock.json files
 package-lock.json
 Front-end/package-lock.json
 Back-end/package-lock.json
-yarn.lock # if you use yarn instead of npm
 
-# Environment files
-Front-end/.env
-Back-end/.env
-
-# Build output
-Front-end/build/
-Front-end/dist/
-Back-end/build/
-Back-end/dist/
-
-# System files
+# Ignore other sensitive or unnecessary files
+*.log
+*.tmp
 .DS_Store
 Thumbs.db
-
-# IDE/editor settings
-.vscode/
-.idea/
-
-# Log files
-*.log
-
-# Temporary files from editors
-*.swp
-
-# Other common files to ignore
-*.bak
-*.tmp
